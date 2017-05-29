@@ -27,7 +27,7 @@ declare module "connect-redis" {
             url?: string;
             ttl?: number;
             disableTTL?: boolean;
-            db?: number;
+            db?: string;
             pass?: string;
             prefix?: string;
             unref?: boolean;
